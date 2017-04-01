@@ -1,6 +1,6 @@
 --[[-------------------------------------------------------------------------
 Script by Valfunde | Version 1.1
-If you have any problems, don't hesitate to leave a ScriptFodder ticket and/or add me on steam (Valfunde *Banna Army)
+If you have any problems, don't hesitate to make an issues on GitHub and/or add me on steam (Valfunde *Banna Army)
 This is configuration file.
 ---------------------------------------------------------------------------]]
 
