@@ -192,9 +192,7 @@ end
 --[[-------------------------------------------------------------------------
 Run 'Ad' function when npc is clicked
 ---------------------------------------------------------------------------]]
-net.Receive("AdValfunde", function(len, ply)
-    TheSimpleAdvert()
-end)
+net.Receive("AdValfunde", TheSimpleAdvert)
 
 --[[-------------------------------------------------------------------------
 3D2D Text above NPC's head
