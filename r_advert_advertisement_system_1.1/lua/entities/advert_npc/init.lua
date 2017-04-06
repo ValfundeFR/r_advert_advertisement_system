@@ -80,28 +80,28 @@ net.Receive( "buyadvert" , function ( len , ply )
         ply:addMoney(- Valfunde.AdvertPrice[number])
         DarkRP.notify(ply,0,6, Valfunde.SuccesNotifyPurchase.." "..GAMEMODE.Config.currency..Valfunde.AdvertPrice[number].." !")
         for k,v in pairs(player.GetAll()) do
-            DarkRP.talkToPerson(v, col, DarkRP.getPhrase("advert") .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
+            DarkRP.talkToPerson(v, col, Valfunde.AdvertText .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
         end
     elseif number == 2 then
         ply:addMoney(- Valfunde.AdvertPrice[number])
         DarkRP.notify(ply,0,6, Valfunde.SuccesNotifyPurchase.." "..GAMEMODE.Config.currency..Valfunde.AdvertPrice[number].." !")
 		for k,v in pairs(player.GetAll()) do
-			DarkRP.talkToPerson(v, col, DarkRP.getPhrase("advert") .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
+			DarkRP.talkToPerson(v, col, Valfunde.AdvertText .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
 		end
 		timer.Create(ply:SteamID64().."timer1", Valfunde.TimerDelay[1], Valfunde.TimerRepetition[1], function()
 			for k,v in pairs(player.GetAll()) do
-				DarkRP.talkToPerson(v, col, DarkRP.getPhrase("advert") .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
+				DarkRP.talkToPerson(v, col, Valfunde.AdvertText .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
 	    	end
 		end)
     elseif number == 3 then
         ply:addMoney(- Valfunde.AdvertPrice[number])
         DarkRP.notify(ply,0,6, Valfunde.SuccesNotifyPurchase.." "..GAMEMODE.Config.currency..Valfunde.AdvertPrice[number].." !")
         for k,v in pairs(player.GetAll()) do
-            DarkRP.talkToPerson(v, col, DarkRP.getPhrase("advert") .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
+            DarkRP.talkToPerson(v, col, Valfunde.AdvertText .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
         end
 		timer.Create(ply:SteamID64().."timer2", Valfunde.TimerDelay[2], Valfunde.TimerRepetition[2], function()
 			for k,v in pairs(player.GetAll()) do
-	            DarkRP.talkToPerson(v, col, DarkRP.getPhrase("advert") .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
+	            DarkRP.talkToPerson(v, col, Valfunde.AdvertText .. " " .. ply:Nick(), Color(255, 255, 0, 255), text, ply)
 	        end
 		end)
     elseif number == 4 then

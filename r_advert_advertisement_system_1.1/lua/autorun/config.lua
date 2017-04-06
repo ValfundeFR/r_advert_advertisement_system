@@ -95,6 +95,7 @@ End of colors configuration
 --[[-------------------------------------------------------------------------
 Text configuration
 ---------------------------------------------------------------------------]]
+Valfunde.AdvertText = "Advert"
 Valfunde.MainText = "Advert - Dashboard" -- Replace the text by your custom main text
 Valfunde.Confirm = "Confirm" -- Replace by your custom confirm text
 Valfunde.SuccesNotifyPurchase = "You have purchased an ad for" -- Replace by your custom succes purchase notification
