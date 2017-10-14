@@ -1,3 +1,5 @@
+``BE CAREFUL, THIS SCRIPT CAN BE OUTDATED AND CREATE SOME ERROR``
+
 > R'Advert is a new way to create advertisement in your server.
 > R'Advert improve your server's RP. With R'Advert your players need to see an NPC to write advertisement.
 > ##### This script is for  ``DarkRP only``
